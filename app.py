@@ -1,5 +1,6 @@
 import streamlit as st
-#from tensorflow.keras.models import load_model
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 from PIL import Image
@@ -26,4 +27,3 @@ if uploaded_file is not None:
     label = "Cachorro 🐶" if prediction[0][0] >= 0.5 else "Gato 🐱"
 
     st.write(f"### Resultado: {label}")
-
