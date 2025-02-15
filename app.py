@@ -1,12 +1,12 @@
 import streamlit as st
-#import tensorflow as tf
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 from PIL import Image
 
 # Carregar modelo treinado
-model = load_model("modelo_cachorro_gato.h5")
+model = load_model("modelo_cachorro_gato (3).h5")
 
 # Interface do Usuário
 st.title("Classificador de Gatos e Cachorros 🐶🐱")
