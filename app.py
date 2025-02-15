@@ -1,7 +1,7 @@
 import streamlit as st
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.applications.vgg16 import preprocess_input
+#import tensorflow as tf
+#from tensorflow.keras.models import load_model
+#from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 from PIL import Image
 
